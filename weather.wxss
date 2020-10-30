@@ -1,0 +1,82 @@
+/* pages/weather/weather.wxss */
+page{
+background-color:rgba(138, 188, 218, 0.822);
+height: 100%;
+}
+.parent{
+width: 90%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-left:14px;
+}
+.searchcion{
+background-color: white;
+}
+.btn::after{
+border: none
+}
+input{
+border-radius:10px;
+padding: 8px;
+border: 1px solid rgb(53, 113, 128) ;
+margin-top: 20px;
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: center;
+background-color: white;
+}
+
+.btn{
+background-color: white;
+width: 40px;
+height: 40px;
+}
+.city{
+top: 20%;
+position: absolute;
+left: 40%;
+width: 90px;
+height: 78px;
+font-size: 25px;
+}
+.vd{
+position: absolute;
+left: 15%;
+top: 30%;
+width: 300px;
+height: 99px;
+}
+
+.img{
+  position: absolute;
+width: 90%;
+height: 30%;
+left: 5%;
+top: 40%;
+
+}
+.tqi{
+position: absolute;
+width: 100px;
+height: 20px;
+left: 20%;
+top: 75%;
+
+}
+.wendu{
+position: absolute;
+width: 80px;
+height: 20px;
+left: 60%;
+top: 75%;
+}
+
+
+
+
+
+
+
+

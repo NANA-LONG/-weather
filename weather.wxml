@@ -1,0 +1,32 @@
+
+<view class="parent">
+  <input bindblur="link" class="page_row" type="text"  confirm-type="search" placeholder="请输入您的城市" >
+   <button bindtap="btn" class="btn" > <icon class="searchcion"  size='20' type='search' bindtap="search"></icon></button>
+   </input>
+
+   </view>
+      <view class="city">{{view}}</view>
+<view class="vd">{{xianshi}}</view>
+ <image class="img" src="{{img}}"></image>
+   <view class="tqi">{{tq}}</view>
+<view class="wendu">{{wendu}}</view>
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
